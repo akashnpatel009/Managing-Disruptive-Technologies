@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yard Sale Demo</string>
+    <string name="section_default">Default</string>
+    <string name="section_buyer">Buyer</string>
+    <string name="section_seller">Seller</string>
+    <string name="section_settings">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Action</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
