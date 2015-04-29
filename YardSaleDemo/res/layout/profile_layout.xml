@@ -69,16 +69,16 @@
                 android:background="@android:drawable/editbox_background"
                 android:ems="10"
                 android:gravity="top|left"
-                android:inputType="textPostalAddress"
-                android:text="Heinz College"
+                android:inputType="textMultiLine|textPostalAddress"
+                android:text="@string/address"
                 tools:ignore="RtlHardcoded" />
-
         </TableRow>
 
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:gravity="start" >
 
             <TextView
                 android:id="@+id/textView5"
@@ -87,10 +87,35 @@
                 android:text="  " />
 
             <Button
-                android:id="@+id/btnSearch"
-                android:layout_width="50dp"
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="start"
                 android:text="Save" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/imageButton0111"
+                android:contentDescription="@string/image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/location" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="start|center_vertical"
+                android:text="   My Location " />
+
         </TableRow>
     </TableLayout>
 

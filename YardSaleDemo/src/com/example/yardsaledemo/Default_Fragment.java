@@ -13,7 +13,7 @@ public class Default_Fragment extends Fragment{
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		
-		mDrawerListView = inflater.inflate(R.layout.fragment_main, container, false);
+		mDrawerListView = inflater.inflate(R.layout.fragment_bucket, container, false);
 		
 		return mDrawerListView;
 	}

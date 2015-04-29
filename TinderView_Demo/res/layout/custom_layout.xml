@@ -17,7 +17,7 @@
             android:id="@+id/sp_image"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@drawable/baby1"
+            android:background="@drawable/chair1"
             android:scaleType="fitXY" />
     </LinearLayout>
 

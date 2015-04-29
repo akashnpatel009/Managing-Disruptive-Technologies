@@ -39,8 +39,8 @@ public class MainActivity extends Activity {
 		parentView = (RelativeLayout) findViewById(R.id.layoutview);
 		windowwidth = getWindowManager().getDefaultDisplay().getWidth();
 		screenCenter = windowwidth / 2;
-		int[] myImageList = new int[] { R.drawable.cats, R.drawable.baby1, R.drawable.sachin,
-				R.drawable.cats, R.drawable.puppy };
+		int[] myImageList = new int[] { R.drawable.chair0, R.drawable.chair1, R.drawable.chair2,
+				R.drawable.chair3, R.drawable.chair4 };
 
 		for (int i = 0; i < 5; i++) {
 			LayoutInflater inflate = (LayoutInflater) m_context

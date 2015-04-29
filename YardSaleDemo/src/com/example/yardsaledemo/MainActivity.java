@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 
 public class MainActivity extends Activity implements
-		NavigationDrawerFragment.NavigationDrawerCallbacks {
+NavigationDrawerFragment.NavigationDrawerCallbacks {
 
 	/**
 	 * Fragment managing the behaviors, interactions and presentation of the
@@ -44,32 +44,32 @@ public class MainActivity extends Activity implements
 
 	@Override
 	public void onNavigationDrawerItemSelected(int position) {
-		
+
 		Fragment onbFragment = null;
 		FragmentManager fragmentManager = getFragmentManager();
-		
+
 		switch(position){
 		case 0:
 			onbFragment = new Buyer_Fragment();
 			break;
 		case 1:
-			onbFragment = new Seller_Fragment();
+			onbFragment = new Default_Fragment();
 			break;
 		case 2:
-			onbFragment = new Profile_Fragment();
+			onbFragment = new Seller_Fragment();
 			break;
 		case 3:
-			onbFragment = new Default_Fragment();
+			onbFragment = new Profile_Fragment();
 			break;			
 		}
 		fragmentManager
 		.beginTransaction()
 		.replace(R.id.container, onbFragment).commit();
-		
-//		fragmentManager
-//				.beginTransaction()
-//				.replace(R.id.container,
-//						PlaceholderFragment.newInstance(position + 1)).commit();
+
+		//		fragmentManager
+		//				.beginTransaction()
+		//				.replace(R.id.container,
+		//						PlaceholderFragment.newInstance(position + 1)).commit();
 	}
 
 	public void onSectionAttached(int number) {
@@ -78,13 +78,13 @@ public class MainActivity extends Activity implements
 			mTitle = getString(R.string.section_buyer);
 			break;
 		case 2:
-			mTitle = getString(R.string.section_seller);
+			mTitle = getString(R.string.section_bucket);
 			break;
 		case 3:
-			mTitle = getString(R.string.section_settings);
+			mTitle = getString(R.string.section_seller);
 			break;
 		case 4:
-			mTitle = getString(R.string.section_default);
+			mTitle = getString(R.string.section_settings);
 			break;
 		}
 	}
@@ -148,7 +148,7 @@ public class MainActivity extends Activity implements
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_main, container,
+			View rootView = inflater.inflate(R.layout.fragment_bucket, container,
 					false);
 			return rootView;
 		}

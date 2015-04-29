@@ -26,16 +26,21 @@ public final class R {
         public static final int bg_selector=0x7f020001;
         public static final int camera=0x7f020002;
         public static final int cats=0x7f020003;
-        public static final int dislike=0x7f020004;
-        public static final int face=0x7f020005;
-        public static final int heart=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int ic_like=0x7f020008;
-        public static final int like=0x7f020009;
-        public static final int people=0x7f02000a;
-        public static final int puppy=0x7f02000b;
-        public static final int sachin=0x7f02000c;
-        public static final int slideshow=0x7f02000d;
+        public static final int chair0=0x7f020004;
+        public static final int chair1=0x7f020005;
+        public static final int chair2=0x7f020006;
+        public static final int chair3=0x7f020007;
+        public static final int chair4=0x7f020008;
+        public static final int dislike=0x7f020009;
+        public static final int face=0x7f02000a;
+        public static final int heart=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int ic_like=0x7f02000d;
+        public static final int like=0x7f02000e;
+        public static final int people=0x7f02000f;
+        public static final int puppy=0x7f020010;
+        public static final int sachin=0x7f020011;
+        public static final int slideshow=0x7f020012;
     }
     public static final class id {
         public static final int action_settings=0x7f080013;
